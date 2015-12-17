@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.orange</groupId>
-	<artifactId>first use mongodb couchbase</artifactId>
+	<artifactId>first_use_mongodb_couchbase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>first use mongodb couchbase</name>
-	<description>task mongo couchbase</description>
+	<name>first_use_mongodb_couchbase</name>
+	<description>task_mongo_couchbase</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -42,6 +42,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-parent</artifactId>
+			<version>1.3.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
 			<version>1.3.0.RELEASE</version>
 		</dependency>
 	</dependencies>
