@@ -1,6 +1,5 @@
 package com.orange.controller;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.TypeAlias;
@@ -12,7 +11,6 @@ import org.springframework.data.mongodb.core.mapping.Field;
  */
 
 @Data
-@AllArgsConstructor
 @Document(collection = "video")
 @TypeAlias(value = "video")
 public class Video {
